@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio | Projetos</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', sans-serif; }
+        body { background-color: #0f172a; color: #f8fafc; display: flex; flex-direction: column; min-height: 100vh; }
+        header { background-color: #1e293b; padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid #334155; }
+        nav a { color: #94a3b8; text-decoration: none; margin-left: 1.5rem; font-weight: 600; }
+        nav a:hover, nav a.active { color: #38bdf8; }
+        main { flex: 1; max-width: 1000px; margin: 0 auto; padding: 3rem 2rem; }
+        h1 { margin-bottom: 2rem; color: #38bdf8; text-align: center; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; }
+        .card { background-color: #1e293b; border: 1px solid #334155; border-radius: 8px; padding: 1.5rem; display: flex; flex-direction: column; justify-content: space-between; }
+        .card h3 { color: #f1f5f9; margin-bottom: 0.5rem; }
+        .card p { color: #94a3b8; font-size: 0.95rem; line-height: 1.5; margin-bottom: 1.5rem; }
+        .card a { color: #38bdf8; text-decoration: none; font-weight: bold; font-size: 0.9rem; }
+        .card a:hover { text-decoration: underline; }
+        footer { text-align: center; padding: 1rem; background-color: #1e293b; color: #64748b; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h2>💻 Portfólio</h2>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="sobre.html">Sobre Mim</a>
+            <a href="projetos.html" class="active">Projetos</a>
+            <a href="contato.html">Contato</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Meus Projetos</h1>
+        <div class="grid">
+            <div class="card">
+                <h3>🛒 Plataforma de E-commerce</h3>
+                <p>Uma aplicação web completa de comércio eletrônico, com carrinho de compras responsivo, painel administrativo e integração com sistemas de pagamento fictícios.</p>
+                <a href="#" target="_blank">Acessar Repositório &rarr;</a>
+            </div>
+            <div class="card">
+                <h3>📊 Dashboard Financeiro</h3>
+                <p>Painel interativo para controle de gastos e receitas. O projeto conta com gráficos dinâmicos atualizados em tempo real conforme os inputs do usuário.</p>
+                <a href="#" target="_blank">Acessar Repositório &rarr;</a>
+            </div>
+            <div class="card">
+                <h3>🌤️ App de Previsão do Tempo</h3>
+                <p>Aplicação simples que consome uma API externa para entregar dados meteorológicos precisos baseados na localização atual do usuário.</p>
+                <a href="#" target="_blank">Acessar Repositório &rarr;</a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Criado por [Seu Nome]</p>
+    </footer>
+
+</body>
+</html>
