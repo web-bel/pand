@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio | Sobre Mim</title>
+    <style>
+        /* Estilos base repetidos para consistência */
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', sans-serif; }
+        body { background-color: #0f172a; color: #f8fafc; display: flex; flex-direction: column; min-height: 100vh; }
+        header { background-color: #1e293b; padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid #334155; }
+        nav a { color: #94a3b8; text-decoration: none; margin-left: 1.5rem; font-weight: 600; }
+        nav a:hover, nav a.active { color: #38bdf8; }
+        main { flex: 1; max-width: 800px; margin: 0 auto; padding: 3rem 2rem; }
+        h1 { color: #38bdf8; margin-bottom: 1.5rem; }
+        p { color: #cbd5e1; line-height: 1.8; margin-bottom: 1.5rem; font-size: 1.1rem; }
+        .skills { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 1rem; }
+        .skill-badge { background-color: #334155; padding: 0.5rem 1rem; border-radius: 20px; font-size: 0.9rem; color: #38bdf8; }
+        footer { text-align: center; padding: 1rem; background-color: #1e293b; color: #64748b; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h2>💻 Portfólio</h2>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="sobre.html" class="active">Sobre Mim</a>
+            <a href="projetos.html">Projetos</a>
+            <a href="contato.html">Contato</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Sobre Mim</h1>
+        <p>Olá! Sou um profissional focado na área de tecnologia e desenvolvimento de software. Minha jornada envolve transformar ideias abstratas em linhas de código funcionais e designs elegantes.</p>
+        <p>Gosto de resolver problemas complexos trabalhando tanto no Front-end quanto no Back-end, sempre buscando escrever código limpo e de fácil manutenção.</p>
+        
+        <h3>Minhas Habilidades:</h3>
+        <div class="skills">
+            <span class="skill-badge">HTML5 / CSS3</span>
+            <span class="skill-badge">JavaScript</span>
+            <span class="skill-badge">React.js</span>
+            <span class="skill-badge">Node.js</span>
+            <span class="skill-badge">Git & GitHub</span>
+            <span class="skill-badge">SQL / NoSQL</span>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Criado por [Seu Nome]</p>
+    </footer>
+
+</body>
+</html>
